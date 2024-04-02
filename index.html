@@ -139,6 +139,45 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Self Driving Car</h3>
+              <p class="project-wrapper__text-info">
+                - Trained a CNN to map raw pixels from 3 front facing cameras directly to steering commands. Predicted steering angle based on the images of road is fed to the steering and hence can drive on its own. <br>
+                - This is an end-to-end approach which includes data collection from a simulator called Udacity (Nanodegree program), data processing, augmentation of images, model building and testing the model on the simulator. <br>
+                - This is an implementation of NVIDIA paper and model created by NVIDIA which eliminates the entire task of lane detection and path planning or control. <br>
+                - Advantage of this project is that a small amount of training data is sufficient to train the car to operate in diverse conditions, on highways, local and residential roads. 
+              </p>
+              <div class="project-wrapper__text-btns">
+                <!--<a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                > -->
+                <a href="https://github.com/divyashreehegde/SelfDrivingCar" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/SD.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <article class="row">
